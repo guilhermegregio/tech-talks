@@ -29,8 +29,8 @@ https://www.cypress.io/
 - Comunidade
 
 ## Ferramentas
-https://www.cypress.io/
-https://github.com/kentcdodds/cypress-testing-library
+- https://www.cypress.io/
+-  https://github.com/kentcdodds/cypress-testing-library
 
 ## Sample
 
@@ -53,28 +53,42 @@ describe("Login no Novo Portal", () => {
 
 ## Hands On
 - Autenticação no novo portal (https://beta.easynvest.com.br/autenticacao)
+
 - Autenticação no portal (https://portal.easynvest.com.br/autenticacao/login)
 
 ## Preparação
 
 Criar um diretorio 
+
 ```mkdir cypress-dojo```
+
 ```cd cypress-dojo```
+
 Iniciar com um package.json
+
 ```npm init -y```
+
 Instalar cypress e o cypress-testing-library
+
 ```npm install -s cypress cypress-testing-library```
+
 Adicionar o script do cypress no package.json
+
 ```
 "scripts": {
   "cy:dev": "cypress open",
   "cy:run": "cypress run"
 },
 ```
+
 Rodar em modo dev
+
 ```npm run cy:dev```
+
 Opcional adicionar suporte do cypress-testing-library na index.js do support
+
 ```import 'cypress-testing-library/add-commands';```
+
 Criar testes :)
 
 ## Dojo
